@@ -236,10 +236,10 @@ export default function FlareApp() {
       {/* ── Top navigation ──────────────────────────────────── */}
       <header className="fl-nav">
         <div className="fl-nav__inner">
-          <a className="fl-brand" href="#main" aria-label="Bar Moshe">
-            barmoshe<span className="fl-brand__deg" aria-hidden="true">°</span>
+          <a className="fl-brand" href="#main" aria-label="Bar Moshe for Flare">
+            bar <span className="fl-brand__for">for</span> flare<span className="fl-brand__deg" aria-hidden="true">°</span>
           </a>
-          <span className="fl-nav__tag">for Flare</span>
+          <span className="fl-nav__tag">an AI Engineer application</span>
           <nav className="fl-nav__links" aria-label="Sections">
             <a className="fl-nav__link" href="#build">Build</a>
             <a className="fl-nav__link" href="#work">Work</a>
@@ -256,15 +256,17 @@ export default function FlareApp() {
         <section className="fl-hero">
           <div className="fl-hero__inner">
             <p className="fl-eyebrow" data-rise>
-              AI Engineer application.
+              Bar Moshe, applying to Flare.
             </p>
             <h1 className="fl-title" data-rise>
-              Bar Moshe
+              Bar, for Flare
               <span className="fl-title__line2">AI builder &amp; full-stack engineer</span>
             </h1>
             <p className="fl-lede" data-rise>
               LLM apps, MCP servers, agents, durable pipelines on Temporal, and the
               DevOps around them. Shipped and public: npm, GitHub, Temporal Code Exchange.
+              This page is my cover letter for Flare&rsquo;s AI Engineer role, in Flare&rsquo;s
+              design language.
             </p>
             <div className="fl-hero__cta" data-rise>
               <a className="fl-btn fl-btn--navy" href="#work">
@@ -292,11 +294,11 @@ export default function FlareApp() {
         <section id="build" className="fl-section fl-section--blue">
           <div className="fl-wrap fl-build">
             <div className="fl-build__copy" data-reveal>
-              <h2 className="fl-h2">What I build</h2>
+              <h2 className="fl-h2">What I&rsquo;d build at Flare</h2>
               <p className="fl-build__body">
-                Agent systems in the shape Flare runs on: intake, document generation,
-                orchestration, client communication. Agents draft, humans approve,
-                evals gate the merge.
+                Agent systems in the shape Flare runs on: intelligent intake, document
+                generation, case orchestration, client communication. Agents draft,
+                humans approve, evals gate the merge.
               </p>
               <p className="fl-build__note">
                 Every step below maps to shipped work in the next section.
@@ -372,8 +374,8 @@ export default function FlareApp() {
         {/* ── Close: navy, serif, their JOIN THE TEAM register ── */}
         <section className="fl-close">
           <div className="fl-close__inner" data-reveal>
-            <p className="fl-eyebrow fl-eyebrow--light">AI Engineer, Tel Aviv.</p>
-            <h2 className="fl-close__title">Let&rsquo;s talk</h2>
+            <p className="fl-eyebrow fl-eyebrow--light">AI Engineer at Flare, Tel Aviv.</p>
+            <h2 className="fl-close__title">Flare, let&rsquo;s talk</h2>
             <p className="fl-close__sub">1barmoshe1@gmail.com</p>
             <div className="fl-close__cta">
               <a className="fl-btn fl-btn--paper" href={EMAIL}>

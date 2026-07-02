@@ -161,6 +161,12 @@
 .fl-brand__deg {
   color: var(--fl-sage);
 }
+.fl-brand__for {
+  font-family: var(--fl-serif);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--fl-soft);
+}
 .fl-nav__tag {
   font-family: var(--fl-serif);
   font-style: italic;
