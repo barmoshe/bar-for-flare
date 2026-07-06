@@ -27,7 +27,7 @@ import './flare.css';
 
 const EMAIL =
   'mailto:1barmoshe1@gmail.com?subject=AI%20Engineer%20-%20Bar%20Moshe';
-const CV = '/Bar_Moshe_Resume.pdf';
+const CV = '/Bar_Moshe_CV_Flare.pdf';
 const LINKEDIN = 'https://www.linkedin.com/in/barmoshe/';
 const GITHUB = 'https://github.com/barmoshe';
 const WHATSAPP = 'https://wa.me/972546561465';
